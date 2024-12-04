@@ -1,0 +1,45 @@
+
+body{
+    background-color: white;
+
+}
+.nav{
+    background-color:white;
+    display:flex;
+    align-items:center;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+    margin:0px;
+}
+
+.logo img{
+    height: 50px;
+    margin: 0 15px;
+}
+.spacer {
+    flex-grow: 1;
+}
+
+.log{
+    /* display: flex; */
+    justify-self:flex-end;
+}
+.log a{
+    color: black;
+    margin: 30px;
+    text-decoration:none;
+    
+}
+
+.main p{
+    font-size:3cap;
+    font-weight:bold;
+    text-align: center;
+}
+.mian.image{
+    display: flex;
+    
+}

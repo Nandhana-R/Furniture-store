@@ -1,0 +1,48 @@
+
+body{
+    background-image: url(image2.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+}
+.nav{
+    background-color:white;
+    display:flex;
+    align-items:center;
+
+}
+.logo{
+    display:flex;
+    align-items: center;
+    margin:0px;
+}
+
+.logo img{
+    height: 50px;
+    margin: 0 15px;
+}
+.spacer {
+    flex-grow: 1;
+}
+
+.log{
+    /* display: flex; */
+    justify-self:flex-end;
+}
+.log a{
+    color: black;
+    margin: 30px;
+    text-decoration:none;
+    
+}
+
+.main p{
+    font-size:1.5cap;
+    text-align:left;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+}
+.main{
+    padding: 200px 20px;
+    text-align: center;
+}
